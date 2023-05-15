@@ -1,1 +1,1 @@
-# hello-php
+My notes and work from the book 'Programming PHP: Creating Dynamic Web Pages' by by Kevin Tatroe and Peter MacIntyre
