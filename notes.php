@@ -1,4 +1,5 @@
-My notes and work from the book 'Programming PHP: Creating Dynamic Web Pages' by by Kevin Tatroe and Peter MacIntyre
+<?php
+/*My notes and work from the book 'Programming PHP: Creating Dynamic Web Pages' by by Kevin Tatroe and Peter MacIntyre
 
 
 1. Introduction to PHP
@@ -22,3 +23,5 @@ My notes and work from the book 'Programming PHP: Creating Dynamic Web Pages' by
 1.1. A Walk Through PHP
 - PHP pages are generally HTML pages with PHP commands embedded in them;
 - Configuration Page: phpinfo() creates an HTML page full of information on how PHP was installed and is currently configured.
+*/
+?>
