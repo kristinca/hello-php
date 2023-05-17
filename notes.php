@@ -22,6 +22,9 @@
 
 1.1. A Walk Through PHP
 - PHP pages are generally HTML pages with PHP commands embedded in them;
-- Configuration Page: phpinfo() creates an HTML page full of information on how PHP was installed and is currently configured.
+- -> Configuration Page: phpinfo() creates an HTML page full of information on how PHP was installed and is currently configured.
+- -> Forms: just an example form for now, more in chapter 8
+- -> DBs: supports MySQL, PostgreSQL, Oracle, Sybase, SQLite, and ODBC-compliant databases.
+- -> Graphics: create and manipulate images w/ the GD extension.
 */
 ?>

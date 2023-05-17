@@ -475,3 +475,6 @@ composer.lock
 
 # imgs
 /images/
+
+# fonts
+/fonts/
