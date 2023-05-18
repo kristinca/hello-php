@@ -29,7 +29,7 @@
 
 2. Language Basics
 
-- PHP is infuenced by Perl and C;
+- PHP is influenced by Perl and C;
 
 2.1. Lexical Structure
 - lowest-level syntax of the language and specifies such things as what variable names look like,
@@ -46,7 +46,7 @@ what characters are used for comments + how program statements are separated fro
     -- semicolons -> separate simple statements.
     -- compound statement -> like conditional test or loop -> no semicolon after a closing brace.
 - Whitespace and line breaks
-    -- WHITESPACE DOES NOT MATTER IN PHP !!!
+    -- !!! WHITESPACE DOES NOT MATTER IN PHP !!!
     -- write readable code, w/ whitespaces, n all, like scala python js etc.
 */
 ?>
