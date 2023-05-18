@@ -26,5 +26,27 @@
 - -> Forms: just an example form for now, more in chapter 8
 - -> DBs: supports MySQL, PostgreSQL, Oracle, Sybase, SQLite, and ODBC-compliant databases.
 - -> Graphics: create and manipulate images w/ the GD extension.
+
+2. Language Basics
+
+- PHP is infuenced by Perl and C;
+
+2.1. Lexical Structure
+- lowest-level syntax of the language and specifies such things as what variable names look like,
+what characters are used for comments + how program statements are separated from each other.
+- add new line with nl2br() -> in it a string with \n
+
+- Case sensitivity
+    -- case-insensitive:
+        -> names of user-defined classes and functions, builtin constructs and keywords (echo, while, class, etc.)
+    -- case-sensitive:
+        -> variables
+- Statements and semicolons
+    -- statement -> a collection of PHP code that does something, like a var assignment or a loop with multiple exit points.
+    -- semicolons -> separate simple statements.
+    -- compound statement -> like conditional test or loop -> no semicolon after a closing brace.
+- Whitespace and line breaks
+    -- WHITESPACE DOES NOT MATTER IN PHP !!!
+    -- write readable code, w/ whitespaces, n all, like scala python js etc.
 */
 ?>
