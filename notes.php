@@ -48,5 +48,32 @@ what characters are used for comments + how program statements are separated fro
 - Whitespace and line breaks
     -- !!! WHITESPACE DOES NOT MATTER IN PHP !!!
     -- write readable code, w/ whitespaces, n all, like scala python js etc.
+- Comments
+*/
+# php supports shell style comments
+# yay ^^
+// php supports C++ style comments too
+/* for longer comments -> use C style comments
+
+- Literals
+    -- literal === data value that appears directly in a program
+- Identifiers
+    -- identifier === name
+    -- first character of an identifier MUST BE:
+        -> an ASCII letter (uppercase or lowercase)
+        -> underscore (_)
+        -> any of the characters between ASCII 0x7F and ASCII 0xFF
+- Variable names
+    -- start with $
+    -- are case-sensitive
+- Function names
+    -- not case-sensitive
+- Class names
+    -- not case-sensitive
+- Constants
+    -- can be: scalar values - Boolean, integer, double, and string + arrays
+    -- referred to by their identifiers and are set using the define() function
+- Keywords
+    -- some php keywords: __CLASS__, echo, insteadof, print, public, try, yield
 */
 ?>
