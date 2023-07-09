@@ -75,5 +75,20 @@ what characters are used for comments + how program statements are separated fro
     -- referred to by their identifiers and are set using the define() function
 - Keywords
     -- some php keywords: __CLASS__, echo, insteadof, print, public, try, yield
-*/
+
+2.2. Data Types
+  - scalar : integers, floating-point numbers, strings and booleans;
+  - collection (compound): arrays, objects;
+  - special types: resource, NULL;
+  
+2.2.1. Integers
+- the range === the range of the long data type of your C compiler
+- decimal: 102, -78536, 3
+- octal- start with 0 and continue with nums from 0-7: 0755, -010
+- hexadecimal - start with 0x, followed by a sequence of digits (0–9) or letters (A–F)
+- binary - start with 0b, followed by a sequence of 1 and 0
+
+- Use func is_int() or is_integer() to test if a val is an int.
+
+    */
 ?>
