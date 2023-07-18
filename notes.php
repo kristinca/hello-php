@@ -87,8 +87,13 @@ what characters are used for comments + how program statements are separated fro
 - octal- start with 0 and continue with nums from 0-7: 0755, -010
 - hexadecimal - start with 0x, followed by a sequence of digits (0–9) or letters (A–F)
 - binary - start with 0b, followed by a sequence of 1 and 0
+- use func is_int() or is_integer() to test if a val is an int
 
-- Use func is_int() or is_integer() to test if a val is an int.
+2.2.2 Floats
+- the range === from 1.7E−308 to 1.7E+308 with 15 digits of accuracy
+- php recognizes normal written floats and sci written floats, like 3.14, 0.314E1
+- compare 2 floats with == , to several decimal places
+- use is_float() or is_real()to test if a val is a float
 
     */
 ?>
