@@ -27,4 +27,23 @@ if (intval($someFloat)==intval($anotherFloat)){
 if (is_float($someFloat)){
     echo implode('this is a float: ', array($someFloat));
 }
+
+// strings
+
+// double quotes -> like f-strings in python (?)
+$name = 'Name';
+$name2 = "Name";
+echo "Hi, $name! <br/>";
+echo 'Hi, $name';
+
+// compare strings with == operator
+if ($name==$name2){
+    echo "<br/> $name == $name2 <br/>";
+}
+
+// check if it's a string with is_string
+if (is_string($name)){
+    echo "$name is a string.<br/>";
+}
+
 ?>

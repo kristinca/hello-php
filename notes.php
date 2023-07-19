@@ -95,5 +95,12 @@ what characters are used for comments + how program statements are separated fro
 - compare 2 floats with == , to several decimal places
 - use is_float() or is_real()to test if a val is a float
 
+2.2.3. Strings
+- same as python, can be defined with single or double quotes
+- double quotes strings in php == f-string in python, regarding vars
+- with \ -> special chars, like some chars in LaTeX
+- \\ => \, and \' => ', seems like regex or something ^^
+- compare two strings with ==
+- use is_string() to test if a val is a string
     */
 ?>
