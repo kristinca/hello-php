@@ -102,5 +102,19 @@ what characters are used for comments + how program statements are separated fro
 - \\ => \, and \' => ', seems like regex or something ^^
 - compare two strings with ==
 - use is_string() to test if a val is a string
+
+2.2.4 Booleans
+- keywords: true / false
+- if ($alive) { }
+- in php this is false:
+    -- false
+    -- 0
+    -- 0.0
+    -- ""
+    -- "0"
+    -- array with zero elements
+    -- NULL
+- use is_bool() to test if a val is a boolean
+
     */
 ?>

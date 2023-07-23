@@ -46,4 +46,15 @@ if (is_string($name)){
     echo "$name is a string.<br/>";
 }
 
+
+// boolean
+$aa = 10; //true
+$bb = true;
+$cc = ""; //false
+$dd = false;
+
+
+if (is_bool($bb)){
+    echo "<br/>$bb is a boolean<br/>";
+}
 ?>
