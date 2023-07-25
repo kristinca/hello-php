@@ -116,5 +116,14 @@ what characters are used for comments + how program statements are separated fro
     -- NULL
 - use is_bool() to test if a val is a boolean
 
+2.2.5 Arrays
+- group of vals
+- indexing like in python, starts at 0
+- array w/ an associative index == dict
+- constructor array()
+- to create a dict use constructor array(key => val)
+- iterate w/ foreach - array and dict.items too
+- use is_array() to test if a val is an array
+
     */
 ?>

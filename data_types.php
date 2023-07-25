@@ -57,4 +57,40 @@ $dd = false;
 if (is_bool($bb)){
     echo "<br/>$bb is a boolean<br/>";
 }
+
+// array
+$arr1[0] = 0;
+$arr1[1] = 1;
+$arr1[2] = 200;
+
+$a_dict['1'] = 'hi php';
+$a_dict['2'] = 'hi python';
+$a_dict['3'] = 5;
+
+// constructor array()
+
+$someArray = array('0', 0.1, 200, 3E2);
+$someArrayLikeADict = array(
+    'a' => 'b',
+    3 => 2.3
+);
+
+// foreach(){}
+
+foreach ($a_dict as $el){
+    echo "<br/>{$el} is an element";
+}
+
+// dict.items with foreach
+// foreach (name_of_dict_var as $k=>$v){}
+foreach ($someArrayLikeADict as $k=>$v){
+    echo "<br/>{$k} : {$v} the second dict";
+}
+
+// is_array()
+if (is_array($arr1)){
+    echo "</br>",json_encode($arr1);
+}
+
+
 ?>
