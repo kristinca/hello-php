@@ -125,5 +125,14 @@ what characters are used for comments + how program statements are separated fro
 - iterate w/ foreach - array and dict.items too
 - use is_array() to test if a val is an array
 
+2.2.6 Objects
+- php supports OOP
+- classes
+- in php classes the . are -> 
+- php has this
+- def === function ... <= the methods
+- use is_object() to test if a val is an object
+- serialize(someobj)
+
     */
 ?>

@@ -92,5 +92,28 @@ if (is_array($arr1)){
     echo "</br>",json_encode($arr1);
 }
 
+// classes 
+class Person{
+    public $name = '';
+
+    function name ($someName = NULL){
+        if (!is_null($someName)){
+            $this->name = $someName;
+        }
+        return $this->name;
+    }
+}
+
+$someone = new Person;
+$someone->name('Someone');
+
+// serialize (object)
+$serialized = serialize($someone);
+echo "</br>OOP classes example name {$someone->name}";
+
+// is_object()
+if (is_object($someone)){
+    echo "</br>{$serialized} is an object";
+}
 
 ?>
