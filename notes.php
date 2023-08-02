@@ -134,5 +134,22 @@ what characters are used for comments + how program statements are separated fro
 - use is_object() to test if a val is an object
 - serialize(someobj)
 
+
+2.2.7 Resources
+- a resource is a special variable, holding a reference to an external resource
+- resources are created and used by special functions
+- each active resource has a unique identifier
+- identifier === numerical index into an internal PHP lookup table that holds info about all the active resources
+- when there are no more references to the resource, it’s automatically shut down
+- use the is_resource() function to test whether a val is a resource
+
+2.2.8 Callbacks
+- functions or object methods used by some functions, such as call_user_func()
+
+2.2.9 NULL
+- case-insensitive keyword NULL
+- NULL is like None in python
+- use is_null() to test if a val is NULL 
+
     */
 ?>

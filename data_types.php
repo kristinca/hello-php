@@ -116,4 +116,38 @@ if (is_object($someone)){
     echo "</br>{$serialized} is an object";
 }
 
+
+// resources
+// $resource = some_db_conn()
+// database_query($resource)
+// $resource = "this will close the db conn because we redefine this var"
+
+// is_resource()
+if (is_resource($bb)) {
+    // $x is a resource
+}
+
+// callbacks
+
+$some_callback = function(){
+    echo "</br>a callback";
+};
+
+call_user_func($some_callback);
+
+// NULL
+
+$n1 = "n1";
+$n1 = null;
+$n2 = NuLl;
+$n3 = NULL;
+
+echo "</br>Null vals here: {$n1}, {$n2}, {$n3}";
+
+
+// is_null()
+if (is_null($n1)) {
+    // $x is NULL
+}
+
 ?>
