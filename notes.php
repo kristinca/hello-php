@@ -151,5 +151,46 @@ what characters are used for comments + how program statements are separated fro
 - NULL is like None in python
 - use is_null() to test if a val is NULL 
 
+2.3 Variables
+- start with $
+- php is interpreted; no compile-time or runtime type checking on variables
+- a var whose value has not been set behaves like the NULL value (like None in python, undefined in js, and so on)
+
+2.3.1. Variable Variables
+- $$some_var is the same as $some_var; 
+- we can reference the value of a var whose name is stored in other var by prefacing the var reference with $
+
+2.3.2 Pointers
+- pointers (or references): $this_var_is_alias = & $for_this_var 
+- the ref is just another var name for the val in the original var
+- unset a var that is set as a ref with unset(var_ref)
+- funcs can return vals by ref: $some_val = & some_func_name();
+
+2.3.3. Variable Scope
+- local 
+    --- in PHP there is no var whose scope is a loop, conditional branch, or other type of block; local is only in a func
+- global -> !!! DO NOT USE !!!
+- static 
+    --- retains its value between calls to a function but is visible only within that function
+    --- declare static vars with the keyword static before the var's name: static $var1 = 1;
+- function params
+    --- named params
+- garbage collection
+    --- PHP uses reference counting and copy-on-write to manage memory
+    --- copy-on-write ensures that memory isn’t wasted when you copy values between vars
+    --- reference counting ensures that memory is returned to the operating system when it is no longer needed
+    --- symbol table in php === dict in python, but for php all vars names are keys and vals vals, as a dict
+    --- when copying a val to other, php just updates the symbol table with:
+        ----> both of these variables are names for the same chunk of memory
+    --- each val pointed to by a symbol table has a reference count:
+        ----> a number that represents the number of ways there are to get to that piece of memory
+        ---- a var goes out of scope at the end of a func (function params, local vars)
+            => the reference count of its val is decreased by one
+        ---- a var is assigned a val in a different area of memory => the reference count of the old val is decreased by one
+        ---- the reference count of a value reaches 0 => its memory is released
+    --- better memory management with ref count 
+    --- use isset() to check if a var has a val
+    --- use unset() to remove var's val.
+
     */
 ?>
