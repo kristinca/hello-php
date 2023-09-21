@@ -192,5 +192,12 @@ what characters are used for comments + how program statements are separated fro
     --- use isset() to check if a var has a val
     --- use unset() to remove var's val.
 
+2.4. Expressions and Operators
+- expression: php code that can be evaluated to produce a value
+    --- literal value -> evaluates to itself (simple)
+    --- variable -> evaluates to the value stored in the variable (simple)
+    --- complex expressions -> simple expressions + operators
+    --- many operators in php are like in C and Perl 
+
     */
 ?>
