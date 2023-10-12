@@ -43,4 +43,31 @@ $var9 = (string)$var4;
 $var10 = (array)$var4;
 $var11 = (object)$var4;
 unset($var4);
+
+// casting
+$some_int = 3;
+$cast_to_float = (float)$some_int;
+$some_concat = strval(32.56);
+echo nl2br("{$cast_to_float}, {$some_concat}\n");
+
+// str concat
+echo "this is a str concat"."  concat.";
+
+// number_format - set the decimals, but IT RETURNS A STR!!!
+$num_format_1 = number_format($some_int, 3, ".");
+echo nl2br("\n{$num_format_1}"); 
+
+// auto increment and decrement
+// nums
+$some_n1 = 1;
+$some_n2 = --$some_n1;
+$some_n3 = $some_n1--;
+echo nl2br("\n{$some_n1}, {$some_n2}, {$some_n3}"); 
+
+// str
+$some_s1 = 'K9';
+$some_s2 = --$some_s1;
+$some_s3 = $some_s1++;
+echo nl2br("\n{$some_s1}, {$some_s2}, {$some_s3}\n");
+
 ?>

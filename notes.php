@@ -198,6 +198,18 @@ what characters are used for comments + how program statements are separated fro
     --- variable -> evaluates to the value stored in the variable (simple)
     --- complex expressions -> simple expressions + operators
     --- many operators in php are like in C and Perl 
+    --- unary, binary, ternary operators
+    --- casting is called type juggling in php
+    --- str concatenation -> with . ,it converts both operands to str before concat
+    --- to print the float to num number of digits, BUT IT RETURNS A !!! STR !!!
+        --->>> number_format(
+                        float $num,
+                        int $decimals = 0,
+                        ?string $decimal_separator = ".",
+                        ?string $thousands_separator = ","
+                    ): string  <<<---
+    --- Arithmetic Operators, the exp is like in python
+    --- Auto-Increment ++, Auto-Decrement --, these can be pre and post, both for strings and nums
 
     */
 ?>
