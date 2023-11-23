@@ -210,6 +210,50 @@ what characters are used for comments + how program statements are separated fro
                     ): string  <<<---
     --- Arithmetic Operators, the exp is like in python
     --- Auto-Increment ++, Auto-Decrement --, these can be pre and post, both for strings and nums
+    --- Comparison Operators
+        ---> can be both numbers, number and a string or both strings
+        ---> ==, === (identity), != or <>, !== (not equal or not the same type), >, >=, <, <=,
+    --- Bitwise Operators
+        ---> each operand is converted to binary representation
+        ---> bitwise negation ~ changes 0s to 1s and vice versa
+        ---> bitwise AND & compares two corresponding bits and returns 1 if both are 1s, else 0
+        ---> bitwise OR | compares two corresponding bits and returns 0 if both are 0s, else 1
+        ---> bitwise XOR ^
+        ---> left shift << shifts the bits in the binary representation of the lefthand operand left
+            by the number of places given in the righthand operand
+        ---> right shift >>
+    --- Logical Operators
+        ---> logical AND &&, and
+        ---> logical OR ||, or
+        ---> logical XOR xor
+        ---> logical negation !
+    --- Casting Operators
+        ---> (int), (float),(string), (bool), (array), (object), and (unset)
+    --- Assignment Operators
+        ---> assignment =
+        ---> assignment with operation +=, -=, /=, *=, %=, ^=, &=, |=, .=
+    --- Miscellaneous Operators
+        ---> error suppression @
+        ---> execution ` code_here  `
+        ---> conditional ? :
+        ---> type instanceof
 
+2.5. Flow-Control Statements
+    - if - else if - else - endif
+    - switch - case - endswitch
+    - while - endwhile
+    - do - while
+    - for (start; condition; increment) { statement(s); }
+    - foreach ($array as $current):
+        // ...
+        endforeach;
+    - foreach ($array as $key => $value) {
+        // ...
+        }
+    - foreach ($array as $key => $value):
+        // ...
+        endforeach;
+    - try - catch
+    
     */
 ?>
